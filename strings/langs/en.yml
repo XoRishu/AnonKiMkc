@@ -1,19 +1,28 @@
 name : English
 
 # General Strings
-general_1 : "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ."
-general_2 : "ᴇʀʀᴏʀ ! ᴡʀᴏɴɢ ᴜsᴀɢᴇ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅ."
-general_3 : "sᴏᴍᴇ **ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ** ᴡʜɪʟᴇ ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ǫᴜᴇʀʏ.\n\nᴇxᴄᴇᴘᴛɪᴏɴ ᴛʏᴘᴇ:- {0}"
-general_4 : "ʏᴏᴜ'ʀᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ɢʀᴏᴜᴘ !\nʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ ꜰᴏʀ ᴀᴅᴍɪɴ ʀɪɢʜᴛs."
-general_5 : "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀᴅᴍɪɴ ᴡɪᴛʜ **ᴍᴀɴᴀɢᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ** ʀɪɢʜᴛs ᴛᴏ ᴘᴇʀꜰᴏʀᴍ ᴛʜɪs ᴀᴄᴛɪᴏɴ."
-general_6 : "ʙᴏᴛ ɪsɴ'ᴛ sᴛʀᴇᴀᴍɪɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
+general_1 : "Reply to a user's message or give username/User_ID.."
+general_2 : "Error!! Wrong usage of command.."
+general_3 : "Some **Exception Occurred** While processing your query.\n\nException Type:- {0}"
+general_4 : "You're an anonymous admin in this chat group !\nRevert back to user account for admin rights."
+general_5 : "You need to be admin with **manage video chat rights** to perform this action ."
+general_6 : "Bot isn't streaming on video chat."
 
 # Classes - Telegram.py
-tg_1 : "ʙᴏᴛ ɪs **ᴏᴠᴇʀʟᴏᴀᴅᴇᴅ** ᴡɪᴛʜ ᴅᴏᴡɴʟᴏᴀᴅs ʀɪɢʜᴛ ɴᴏᴡ.\n\n**ᴛʀʏ ᴀꜰᴛᴇʀ:** {0} (__ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ__)"
-tg_2 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ."
+tg_1 : "Bot is **overloaded** with downloads right now .\n\n**Try After:** {0} (__ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ__)"
+tg_2 : "Failed to download the media from telegram ."
 
 # Core - Call.py
-call_1 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ᴀᴅᴍɪɴ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ.\n\nᴅɪsᴀʙʟᴇ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏᴍᴏᴅᴇ ᴠɪᴀ : /playmode"
+call_1 : "ʙʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ᴀᴅᴍɪɴ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ.\n\nᴅɪsᴀʙʟᴇ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏᴍᴏᴅᴇ ᴠɪᴀ : /playmode"
+call_2 : "{0} ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.\n\n**ɪᴅ :** `{1}`\n**ɴᴀᴍᴇ :** {2}\n**ᴜsᴇʀɴᴀᴍᴇ :** @{3}\n\nᴘʟᴇᴀsᴇ ᴜɴʙᴀɴ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀɴᴅ ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ..."
+call_3 : "» ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ.\n\n**ʀᴇᴀsᴏɴ :** `{0}`"
+call_4 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ."
+call_5 : "➻ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...\n\n» ɪɴᴠɪᴛɪɴɢ {0} ᴛᴏ {1}."
+call_6 : "{0} ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ. \n\nᴛʀʏɪɴɢ ᴛᴏ sᴛᴀʀᴛ sᴛʀᴇᴀᴍ..."
+call_7 : "**ʜᴀʀᴍꜰᴜʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛ ɢɪᴠᴇɴ **\n\nᴘʟᴇᴀsᴇ ʀᴇᴍᴏᴠᴇ **ʙᴀɴ ᴜsᴇʀs** ʀɪɢʜᴛs ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
+call_8 : "**ʜᴀʀᴍꜰᴜʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛ ɢɪᴠᴇɴ **\n\nᴘʟᴇᴀsᴇ ʀᴇᴍᴏᴠᴇ **ᴀᴅᴅ ɴᴇᴡ ᴀᴅᴍɪɴs** ʀɪɢʜᴛs ꜰʀᴏᴍ ᴛʜᴇ ʙᴏᴛ."
+call_9 : "**ꜰᴀɪʟᴇᴅ ᴛᴏ sᴡɪᴛᴄʜ sᴛʀᴇᴀᴍ**\nᴘʟᴇᴀsᴇ ᴜsᴇ /sᴋɪᴘ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʀᴀᴄᴋ ᴀɢᴀɪɴ."
+call_10 : "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ɴᴇxᴛ ᴛʀᴀᴄᴋ ꜰʀᴏᴍ ᴘʟᴀʏʟɪsᴛ..."ᴏᴛ ʀᴇǫᴜɪʀᴇs **ᴀᴅᴍɪɴ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ.\n\nᴅɪsᴀʙʟᴇ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏᴍᴏᴅᴇ ᴠɪᴀ : /playmode"
 call_2 : "{0} ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ.\n\n**ɪᴅ :** `{1}`\n**ɴᴀᴍᴇ :** {2}\n**ᴜsᴇʀɴᴀᴍᴇ :** @{3}\n\nᴘʟᴇᴀsᴇ ᴜɴʙᴀɴ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴀɴᴅ ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɢᴀɪɴ..."
 call_3 : "» ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ.\n\n**ʀᴇᴀsᴏɴ :** `{0}`"
 call_4 : "ʙᴏᴛ ʀᴇǫᴜɪʀᴇs **ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ** ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ."
