@@ -69,7 +69,7 @@ class Userbot(Client):
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Assistant Started :**\n\nID : `{self.one.id}`\nName : {self.one.name}\nUsername : @{self.one.username}"
                 )
             except:
                 LOGGER(__name__).error(
