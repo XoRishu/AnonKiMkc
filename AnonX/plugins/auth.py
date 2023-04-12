@@ -131,14 +131,14 @@ async def unauthusers(client, message: Message, _):
     & ~filters.edited
     & ~BANNED_USERS
 )
-async def authusers(client, message: Message, _):
+async def authusers(client, message: Message):
     _playlist = await get_authuser_names(message.chat.id)
     if not _playlist:
-        return await message.reply_text(_["setting_5"])
+        return await message.reply_text("No Authorized Users Found\n\nYou can allow any non-admin to use my admin commands by /auth and delete by using /unauth")
     else:
         j = 0
-        mystic = await message.reply_text(_["auth_6"])
-        text = _["auth_7"]
+        mystic = await message.reply_text("Fetching Authorised Users... Please Wait")
+        text = "**Authorised Users List[AUL]:**\n\n"
         for note in _playlist:
             _note = await get_authuser(message.chat.id, note)
             user_id = _note["auth_user_id"]
@@ -151,6 +151,6 @@ async def authusers(client, message: Message, _):
             except Exception:
                 continue
             text += f"{j}➤ {user}[`{user_id}`]\n"
-            text += f"   {_['auth_8']} {admin_name}[`{admin_id}`]\n\n"
+            text += f"   {"┗ Added By:-"} {admin_name}[`{admin_id}`]\n\n"
         await mystic.delete()
         await message.reply_text(text)
