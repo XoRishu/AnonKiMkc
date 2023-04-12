@@ -151,6 +151,6 @@ async def authusers(client, message: Message):
             except Exception:
                 continue
             text += f"{j}➤ {user}[`{user_id}`]\n"
-            text += f"   {"┗ Added By:-"} {admin_name}[`{admin_id}`]\n\n"
+            text += f"┗ Added By:- {admin_name}[`{admin_id}`]\n\n"
         await mystic.delete()
         await message.reply_text(text)
